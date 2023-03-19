@@ -4,5 +4,5 @@ export {
     IncomingMessage,
 } from "./types";
 
+export { WhatsappAPI }
 export default WhatsappAPI;
-module.exports = WhatsappAPI;
