@@ -20,7 +20,7 @@ import {
 } from './types';
 
 
-class WhatsappAPI {
+export class WhatsappAPI {
     private accountPhoneNumberId: string;
     private accessToken: string;
     private expressApp?: express.Application;
@@ -239,5 +239,3 @@ class WhatsappAPI {
     }
 
 }
-
-export default WhatsappAPI;
